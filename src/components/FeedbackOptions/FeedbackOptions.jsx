@@ -1,16 +1,16 @@
 //import PropTypes from 'prop-types';
-//import { } from './FeedbackOptions.styled';
+import { Buttons, Button } from './FeedbackOptions.styled';
 
 export default function FeedbackOptions({ options }) {
   return (
-    <ul>
+    <Buttons>
       {options.map((option, index) => {
         return (
           <li key={index}>
-            <button type="button">{option}</button>
+            <Button type="button">{option}</Button>
           </li>
         );
       })}
-    </ul>
+    </Buttons>
   );
 }
