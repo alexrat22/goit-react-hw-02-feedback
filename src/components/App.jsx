@@ -16,7 +16,9 @@ class App extends Component {
   //countPositiveFeedbackPercentage();
 
   render() {
-    return ``;
+    return `<>
+    
+    </>`;
   }
 }
 
