@@ -3,9 +3,9 @@
 
 export default function Section({ title, children }) {
   return (
-    <Section>
+    <section>
       <h2>{title}</h2>
       {children}
-    </Section>
+    </section>
   );
 }
