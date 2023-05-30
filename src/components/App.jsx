@@ -1,6 +1,6 @@
-//import React, { Component } from 'react';
+import { Component } from 'react';
 //import Statistics from './Statistics/Statistics';
-//import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
+import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
 //import Section from './Section/Section';
 //import Notification from './Notification/Notification';
 
@@ -16,9 +16,12 @@ class App extends Component {
   //countPositiveFeedbackPercentage();
 
   render() {
-    return `<>
-    
-    </>`;
+    const options = Object.keys(this.state);
+    return (
+      <>
+        <FeedbackOptions options={options} />
+      </>
+    );
   }
 }
 
