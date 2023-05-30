@@ -6,5 +6,5 @@ export const SectionStyle = styled.section`
 `;
 
 export const Title = styled.h2`
-  padding-top: 20px;
+  padding-top: 30px;
 `;

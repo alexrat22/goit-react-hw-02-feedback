@@ -6,13 +6,14 @@ export const Buttons = styled.ul`
   justify-content: center;
   gap: 15px;
   padding-left: 0;
-  margin-top:30px;
+  margin-top: 35px;
   }
 `;
 
 export const Button = styled.button`
-  padding: 7px 12px;
-  font-weight: 700;
+  font-size: 16px;
+  padding: 12px 20px;
+  font-weight: 600;
   text-transform: capitalize;
   background-color: teal;
   color: #fff;

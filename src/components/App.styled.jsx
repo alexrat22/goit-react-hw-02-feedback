@@ -2,7 +2,6 @@ import styled from '@emotion/styled';
 
 export const Container = styled.div`
   width: 400px;
-  height: 300px;
   margin-left: auto;
   margin-right: auto;
   background-color: aquamarine;
